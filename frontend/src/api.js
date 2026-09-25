@@ -1,4 +1,4 @@
-const BASE = 'http://localhost:3000';
+const BASE = '';
 
 export async function apiFetch(path, options = {}) {
   const res = await fetch(`${BASE}${path}`, {
